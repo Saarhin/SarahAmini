@@ -18,7 +18,7 @@ export const experience = [
     title: "BEHIN ELM FARAJAHAN (B.E.F.)",
     duration: "June 2023 - June 2024",
     subtitle: "Computer Vision Engineer",
-    details: ["Extracting skin features, such as acne, texture, etc. from facial images"],
+    details: [`Extracting skin features, such as acne, texture, etc. from facial images`],
     tags: ["Python"],
     icon: "truck ",
   },
@@ -27,7 +27,7 @@ export const experience = [
     duration: "September 2022 - June 2024",
     subtitle: "TUTOR (PART-TiME)",
     details: [
-      "Teaching computer engineering courses to students",
+      `Teaching computer engineering courses to students`,
     ],
     tags: ["lala"
     ],
@@ -49,8 +49,8 @@ export const experience = [
     duration: "April 2019 - August 2019",
     subtitle: "Web Development Internship",
     details: [
-      "Developing a full stack project for tracking employee’s entrance and exit time by scanning QR code using an android app.",
-    "Gained the experience of working with Javascript, Node.js, React, React Native, and Mongodb"
+      `Developing a full stack project for tracking employee’s entrance and exit time by scanning QR code using an android app.`,
+    `Gained the experience of working with Javascript, Node.js, React, React Native, and Mongodb`
     ],
     tags: ["JavaScript"],
     icon: "group",
