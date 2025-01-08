@@ -70,7 +70,7 @@ export const education = [
     title: "Master's degree in computing science",
     duration: "2024 - Present",
     subtitle: "University of Alberta",
-    details: [],
+    details: [`Under the supervision of Matthew E. Taylor`],
     tags: [],
     icon: "graduation-cap",
   },
