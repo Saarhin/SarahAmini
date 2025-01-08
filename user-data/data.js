@@ -67,27 +67,31 @@ export const trekking = [
 
 export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "Master's degree in computing science",
+    duration: "2024 - Present",
+    subtitle: "University of Alberta",
     details: [],
-    tags: [
-      "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
-      "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
-    ],
+    tags: [],
     icon: "graduation-cap",
   },
   {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
-    details: [],
-    tags: ["Physics", "Chemistry", "Mathematics"],
+    title: "B.S. in computer science and engineering ",
+    duration: "2017 - 2022",
+    subtitle: "Khaje Nasir Toosi University of Technology (KNTU)",
+    details: [`Total GPA: 17.32/20`,
+      `Top Courses: Natural Language Processing(19.6/20), Computer Vision(18.3/20), System Analysis and Design(19.44/20),
+Artificial Intelligence and Expert Systems(18.2/20)`
+    ],
+    tags: [],
     icon: "book",
+  },
+  {
+    title: "Diploma in mathematics and physics",
+    duration: "2014 - 2017",
+    subtitle: "Farzanegan 7 High School",
+    details: [`GPA: 19.77/20, Under supervision of National organization for Development of Exceptional Talents (NODET)`],
+    tags: [],
+    icon: "graduation-cap",
   },
 ];
 
