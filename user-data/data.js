@@ -1,13 +1,16 @@
 export const bio = [
-  "Hello, I'm Vinay Somawat!",
-  "I’m a passionate and experienced <strong>Frontend Engineer</strong> specializing in developing dynamic web applications using Angular and React. I thrive on optimizing performance and delivering innovative, user-focused solutions.",
-  "Beyond coding, I enjoy traveling through the serene <strong>Himalayan mountains</strong> and experimenting with new recipes in the <strong>kitchen</strong>.",
+  "Hello, I'm Sarah Amini!",
+  "I’m a Master's student in Computing Science at the University of Alberta, supervised by Professor Matthew E. Taylor. My primary research interest lies in Reinforcement Learning, with a focus on its real-world applications. I also have a strong background in Computer Vision, where I've worked on various projects involving object detection and recognition. I am passionate about leveraging AI to address practical challenges.",
+  "Beyond research, I have professional experience as a full-stack developer, specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js), where I developed dynamic web applications.",
 ];
 
 export const skills = [
-  "JavaScript, TypeScript, Angular, RxJS, NGRX/NGXS",
-  "HTML, Bootstrap, Tailwind",
-  "GitHub, Debugging, Chrome DevTools",
+  "Programming Languages: Python, Java, C, C++, JavaScript",
+  "Machine Learning Libraries: Stable Baselines, TensorFlow, PyTorch, scikit-learn",
+  "Computer Vision Libraries: OpenCV",
+  "Web Development Frameworks: React, Node.js",
+  "Tools: Git, LaTeX",
+  "Platforms & Environments: Linux, Google Colab, Jupyter Notebook"
 ];
 
 export const experience = [
