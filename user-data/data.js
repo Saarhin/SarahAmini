@@ -29,7 +29,7 @@ export const experience = [
     details: [
       "Teaching computer engineering courses to students",
     ],
-    tags: [
+    tags: ["lala"
     ],
     icon: "heartbeat",
   },
