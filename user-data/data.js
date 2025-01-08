@@ -15,68 +15,46 @@ export const skills = [
 
 export const experience = [
   {
-    title: "Shiprocket Private Limited",
-    duration: "September 2023 - Present",
-    subtitle: "Software Engineer",
-    details: ["Working in support and escalation team."],
-    tags: ["JavaScript", "Angular", "Bootstrap", "AngularJs"],
+    title: "BEHIN ELM FARAJAHAN (B.E.F.)",
+    duration: "June 2023 - June 2024",
+    subtitle: "Computer Vision Engineer",
+    details: ["Extracting skin features, such as acne, texture, etc. from facial images"],
+    tags: ["Python"],
     icon: "truck ",
   },
   {
-    title: "Biofourmis India Private Limited",
-    duration: "April 2022 - Jul 2023",
-    subtitle: "Software Engineer",
+    title: "Platute",
+    duration: "September 2022 - June 2024",
+    subtitle: "TUTOR (PART‑TiME)",
     details: [
-      `Implemented microfrontends using the Module Federation Plugin in Angular.
-            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-      `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-            recognition with the Biofourmis Bravo award in Q1, 2023.`,
-      `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-      `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-      `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-      `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-            management, and enhanced application performance.`,
-      `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-      `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-            resulting in reduced audio issues and increased user satisfaction.`,
-      `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
-            and enhancing features.`,
+      "Teaching computer engineering courses to students",
     ],
     tags: [
-      "JavaScript",
-      "Angular",
-      "RxJS",
-      "NGXS",
-      "TypeScript",
-      "RxState",
-      "Webpack",
-      "Optimization",
     ],
     icon: "heartbeat",
   },
   {
-    title: "Novopay Solutions Private Limited",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
+    title: "RAHBIN SANAT NASIR INSTITUTE",
+    duration: "October 2021 - December 2021",
+    subtitle: "Computer Vision Internship",
     details: [
-      `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
-            and Money transfer.`,
-      `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
-            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
-      `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
-      `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
+      `Real time detection of different objects such as car, bus, truck, etc. in videos.`,
+      `Gained the experience of working with SSD, R‑CNN, Fast R‑CNN and Faster R‑CNN models and TensorFlow and Tensor‑
+Board frameworks.`,
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Python", "Computer Vision"],
     icon: "qrcode",
   },
   {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
+    title: "ROSHT NANO FANAAVARAN COMPONY",
+    duration: "April 2019 - August 2019",
+    subtitle: "Web Development Internship",
     details: [
-      `Developed a customer web application for social media management, supporting the advertisement domain.`,
+      `Developing a full stack project for tracking employee’s entrance and exit time by scanning QR code using an android
+app.`,
+`Gained the experience of working with Javascript, Node.js, React, React Native, and Mongodb`
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+    tags: ["JavaScript"],
     icon: "group",
   },
 ];
