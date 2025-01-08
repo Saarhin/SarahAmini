@@ -287,6 +287,7 @@ function populateRepo(items, id) {
 }
 
 function populateExp_Edu(items, id) {
+  console.log(items)
   let mainContainer = document.getElementById(id);
 
   for (let i = 0; i < items.length; i++) {
