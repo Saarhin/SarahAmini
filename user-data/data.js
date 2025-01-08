@@ -25,7 +25,7 @@ export const experience = [
   {
     title: "Platute",
     duration: "September 2022 - June 2024",
-    subtitle: "TUTOR (PART‑TiME)",
+    subtitle: "TUTOR (PART-TiME)",
     details: [
       "Teaching computer engineering courses to students",
     ],
@@ -39,8 +39,7 @@ export const experience = [
     subtitle: "Computer Vision Internship",
     details: [
       `Real time detection of different objects such as car, bus, truck, etc. in videos.`,
-      `Gained the experience of working with SSD, R‑CNN, Fast R‑CNN and Faster R‑CNN models and TensorFlow and Tensor‑
-Board frameworks.`,
+      `Gained the experience of working with SSD, R-CNN, Fast R-CNN and Faster R-CNN models and TensorFlow and TensorBoard frameworks.`,
     ],
     tags: ["Python", "Computer Vision"],
     icon: "qrcode",
@@ -50,9 +49,8 @@ Board frameworks.`,
     duration: "April 2019 - August 2019",
     subtitle: "Web Development Internship",
     details: [
-      `Developing a full stack project for tracking employee’s entrance and exit time by scanning QR code using an android
-app.`,
-`Gained the experience of working with Javascript, Node.js, React, React Native, and Mongodb`
+      "Developing a full stack project for tracking employee’s entrance and exit time by scanning QR code using an android app.",
+    "Gained the experience of working with Javascript, Node.js, React, React Native, and Mongodb"
     ],
     tags: ["JavaScript"],
     icon: "group",
