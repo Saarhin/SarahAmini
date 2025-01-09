@@ -157,4 +157,37 @@ export const footer = [
   },
 ];
 
-
+export const repos = [
+  {
+  author: "vinaysomawat",
+  name: "vinaysomawat.github.io",
+  description: "A cutting-edge portfolio web page utilizing vanilla JavaScript.",
+  language: "CSS",
+  stars: 321,
+  forks: 376
+  },
+  {
+  author: "vinaysomawat",
+  name: "WhatsApp-Bot",
+  description: "This Python-based Web WhatsApp Bot utilizes Selenium and web automation to send messages automatically to your WhatsApp contacts via web.whatsapp.com.",
+  language: "Python",
+  stars: 131,
+  forks: 56
+  },
+  {
+  author: "vinaysomawat",
+  name: "Resume-Builder",
+  description: "A customizable web-based template editor utilizing Javascript, designed to create personalized resumes and letters in a variety of formats.",
+  language: "HTML",
+  stars: 113,
+  forks: 72
+  },
+  {
+  author: "vinaysomawat",
+  name: "CareerHigh-Android",
+  description: "The application is designed to display website content through webviews on Android devices. It provides a straightforward and convenient method for generating Android apps from websites.",
+  language: "Java",
+  stars: 44,
+  forks: 148
+  }
+];

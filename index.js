@@ -4,7 +4,8 @@ import {
   education,
   experience,
   trekking,
-  footer
+  footer,
+  repos
 } from "./user-data/data.js";
 
 import { URLs } from "./user-data/urls.js";
@@ -449,7 +450,8 @@ populateBio(bio, "bio");
 populateSkills(skills, "skills");
 
 /*fetchBlogsFromMedium(medium); */
-fetchReposFromGit(gitRepo);
+/*fetchReposFromGit(gitRepo);*/
+populateRepo(repos, "repos");
 fetchGitConnectedData(gitConnected);
 
 populateExp_Edu(experience, "experience");
