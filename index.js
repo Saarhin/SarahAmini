@@ -28,6 +28,7 @@ function fetchReposFromGit(items) {
   try {
     /* const response = await fetch(url);
     const items = await response.json(); */
+    console.log(items)
     populateRepo(items, "repos");
   } catch (error) {
     throw new Error(`Error in fetching the blogs from repos: ${error}`);
