@@ -9,7 +9,7 @@ import {
 
 import { URLs } from "./user-data/urls.js";
 
-const { medium, gitConnected, gitRepo } = URLs;
+const { gitConnected, gitRepo } = URLs;
 
 async function fetchBlogsFromMedium(url) {
   try {
@@ -448,8 +448,8 @@ populateBio(bio, "bio");
 populateSkills(skills, "skills");
 
 /*fetchBlogsFromMedium(medium); */
-/*fetchReposFromGit(gitRepo);*/
-fetchGitConnectedData(gitConnected);
+fetchReposFromGit(gitRepo);
+/*fetchGitConnectedData(gitConnected);*/
 
 populateExp_Edu(experience, "experience");
 populateTrekking(trekking);
