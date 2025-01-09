@@ -449,7 +449,7 @@ populateSkills(skills, "skills");
 
 /*fetchBlogsFromMedium(medium); */
 fetchReposFromGit(gitRepo);
-/*fetchGitConnectedData(gitConnected);*/
+fetchGitConnectedData(gitConnected);
 
 populateExp_Edu(experience, "experience");
 populateTrekking(trekking);
