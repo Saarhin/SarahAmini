@@ -5,6 +5,7 @@ import {
   experience,
   trekking,
   footer,
+  repos
 } from "./user-data/data.js";
 
 import { URLs } from "./user-data/urls.js";
@@ -25,8 +26,9 @@ async function fetchBlogsFromMedium(url) {
 
 async function fetchReposFromGit(url) {
   try {
-    const response = await fetch(url);
-    const items = await response.json();
+    /* const response = await fetch(url);
+    const items = await response.json(); */
+    const items = repos
     populateRepo(items, "repos");
   } catch (error) {
     throw new Error(`Error in fetching the blogs from repos: ${error}`);
