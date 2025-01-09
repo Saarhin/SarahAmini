@@ -264,7 +264,7 @@ function populateRepo(items, id) {
     statsRow.appendChild(languageDiv);
 
     // Stars
-    const starsDiv = document.createElement("div");
+    /* const starsDiv = document.createElement("div");
     starsDiv.style = "display: flex; align-items: center; gap: 4px;";
     starsDiv.innerHTML = `
           <img src="https://img.icons8.com/ios-filled/16/666666/star--v1.png" alt="Stars">
@@ -279,7 +279,7 @@ function populateRepo(items, id) {
           <img src="https://img.icons8.com/ios-filled/16/666666/code-fork.png" alt="Forks">
           ${items[i].forks}
       `;
-    statsRow.appendChild(forksDiv);
+    statsRow.appendChild(forksDiv);*/
 
     repoLink.appendChild(statsRow);
 

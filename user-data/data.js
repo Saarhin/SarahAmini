@@ -159,15 +159,13 @@ export const footer = [
 
 export const repos = [
   {
-  author: "vinaysomawat",
-  name: "vinaysomawat.github.io",
-  description: "A cutting-edge portfolio web page utilizing vanilla JavaScript.",
-  language: "CSS",
-  stars: 321,
-  forks: 376
+  author: "saarhin",
+  name: "Detection and classification of football players in a pitch",
+  description: "In this project some image‑processing methods and CNN model is used for players’ detection and a model is trained for teams’ classification using Python, TensorFlow, OpenCV, Google Colab.",
+  language: "Python"
   },
   {
-  author: "vinaysomawat",
+  author: "saarhin",
   name: "WhatsApp-Bot",
   description: "This Python-based Web WhatsApp Bot utilizes Selenium and web automation to send messages automatically to your WhatsApp contacts via web.whatsapp.com.",
   language: "Python",
@@ -175,7 +173,7 @@ export const repos = [
   forks: 56
   },
   {
-  author: "vinaysomawat",
+  author: "saarhin",
   name: "Resume-Builder",
   description: "A customizable web-based template editor utilizing Javascript, designed to create personalized resumes and letters in a variety of formats.",
   language: "HTML",
@@ -183,7 +181,7 @@ export const repos = [
   forks: 72
   },
   {
-  author: "vinaysomawat",
+  author: "saarhin",
   name: "CareerHigh-Android",
   description: "The application is designed to display website content through webviews on Android devices. It provides a straightforward and convenient method for generating Android apps from websites.",
   language: "Java",
