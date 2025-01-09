@@ -119,7 +119,7 @@ function populateTrekking(items) {
 
 function populateBlogs(items, id) {
   const projectdesign = document.getElementById(id);
-  const count = 3; // Number of blogs to display
+  const count = 6; // Number of blogs to display
 
   for (let i = 0; i < count; i++) {
       // Create a wrapper for the blog card
@@ -155,7 +155,7 @@ function populateBlogs(items, id) {
       // Publish Date
       const pubDateEle = document.createElement("p");
       pubDateEle.className = "publish-date";
-      pubDateEle.innerHTML = getBlogDate(items[i].pubDate);
+      pubDateEle.innerHTML = items[i].pubDate;
       pubDateEle.style = "margin: 0 0 12px; font-size: 12px; color: #555;";
       blogLink.appendChild(pubDateEle);
 

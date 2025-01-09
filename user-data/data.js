@@ -137,17 +137,17 @@ export const footer = [
       //     text: "Linkedin",
       //     link: "https://www.linkedin.com/in/vinaysomawat/",
       //   },
-      //   {
-      //     text: "Twitter",
-      //     link: "https://twitter.com/thesigmakid",
-      //   },
       {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
+        text: "Email",
+        link: "samini1@ualberta.ca",
       },
       {
         text: "Github",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+        link: "https://github.com/Saarhin",
+      },
+      {
+        text: "LinkedIn",
+        link: "https://www.linkedin.com/in/sarah-amini-a720b4208/",
       },
     ],
   },
