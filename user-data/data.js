@@ -137,10 +137,7 @@ export const footer = [
       //     text: "Linkedin",
       //     link: "https://www.linkedin.com/in/vinaysomawat/",
       //   },
-      {
-        text: "Email",
-        link: "mailto:samini1@ualberta.ca",
-      },
+      
       {
         text: "Github",
         link: "https://github.com/Saarhin",
