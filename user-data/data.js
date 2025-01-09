@@ -160,32 +160,38 @@ export const footer = [
 export const repos = [
   {
   author: "saarhin",
-  name: "Detection and classification of football players in a pitch",
+  name: "Time Descritization in RL Environments",
+  description: "Evaluating the effect of time descritization in environments such as CartPole and Acrobot on different algorithms.",
+  language: "Python"
+  },
+  {
+  author: "saarhin",
+  name: "Detection and Classification of Football Players in a Pitch",
   description: "In this project some image‑processing methods and CNN model is used for players’ detection and a model is trained for teams’ classification using Python, TensorFlow, OpenCV, Google Colab.",
   language: "Python"
   },
   {
   author: "saarhin",
-  name: "WhatsApp-Bot",
-  description: "This Python-based Web WhatsApp Bot utilizes Selenium and web automation to send messages automatically to your WhatsApp contacts via web.whatsapp.com.",
-  language: "Python",
-  stars: 131,
-  forks: 56
+  name: "Playing with Face Models",
+  description: "Computer Vision project. Aligned, animated and transformed face gestures using Dlib Library, Appearance Models, and Triangulation Algorithm.",
+  language: "Python"
   },
   {
   author: "saarhin",
-  name: "Resume-Builder",
-  description: "A customizable web-based template editor utilizing Javascript, designed to create personalized resumes and letters in a variety of formats.",
-  language: "HTML",
-  stars: 113,
-  forks: 72
+  name: "Game Development ‑ Reverse Gun game",
+  description: "Developed a 2D single‑player platformer game using Unity game engine and Pixel Art in 3 days for Global Game Jam competition",
+  language: "C#"
   },
   {
   author: "saarhin",
-  name: "CareerHigh-Android",
-  description: "The application is designed to display website content through webviews on Android devices. It provides a straightforward and convenient method for generating Android apps from websites.",
-  language: "Java",
-  stars: 44,
-  forks: 148
+  name: "Game Development ‑ SAD game",
+  description: "Member of a group of 4 student developing a 2D single‑Player platformer game using Unity game engine and Pixel Art for System Analysis and Design course.",
+  language: "C#"
+  },
+  {
+  author: "saarhin",
+  name: "Game Development ‑ Othello",
+  description: "Implemented Othello in Unity game engine where an AI agent played against a single player. The AI agent uses minimax algorithm to optimize its moves",
+  language: "C#"
   }
 ];
