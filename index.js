@@ -462,7 +462,7 @@ populateBlogs(publications, "blogs");
 fetchGitConnectedData(gitConnected);
 
 populateExp_Edu(experience, "experience");
-populateTrekking(trekking);
+/*populateTrekking(trekking);*/
 populateExp_Edu(education, "education");
 
 populateLinks(footer, "footer");
