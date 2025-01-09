@@ -447,7 +447,7 @@ populateBio(bio, "bio");
 
 populateSkills(skills, "skills");
 
-fetchBlogsFromMedium(medium);
+/*fetchBlogsFromMedium(medium); */
 fetchReposFromGit(gitRepo);
 fetchGitConnectedData(gitConnected);
 
