@@ -5,7 +5,8 @@ import {
   experience,
   trekking,
   footer,
-  repos
+  repos,
+  publications
 } from "./user-data/data.js";
 
 import { URLs } from "./user-data/urls.js";
@@ -159,13 +160,18 @@ function populateBlogs(items, id) {
       blogLink.appendChild(pubDateEle);
 
       // Blog Description
-      const blogDescription = document.createElement("p");
-      blogDescription.className = "blog-description";
-      const html = items[i].content;
-      const [, doc] = /<p>(.*?)<\/p>/g.exec(html) || [];
-      blogDescription.innerHTML = doc;
-      blogDescription.style = "margin: 0 0 12px; font-size: 12px; color: #666;";
-      blogLink.appendChild(blogDescription);
+      const divTimelineLabel = document.createElement("div");
+      divTimelineLabel.style = "margin: 0 0 12px; font-size: 12px; color: #666;";
+
+      for (let j = 0; j < items[i].content.length; j++) {
+        const pTimelineText = document.createElement("p");
+        pTimelineText.className = "blog-description";
+        pTimelineText.className = "timeline-text";
+        pTimelineText.innerHTML = "&blacksquare; " + items[i].content[j];
+        divTimelineLabel.append(pTimelineText);
+      }
+      
+      blogLink.appendChild(divTimelineLabel);
 
       // Categories (Tags)
       const categoriesDiv = document.createElement("div");
@@ -194,7 +200,7 @@ function populateBlogs(items, id) {
 
 function populateRepo(items, id) {
   const projectdesign = document.getElementById(id);
-  const count = 4; // Adjust this count based on the number of repos you want to display
+  const count = 6; // Adjust this count based on the number of repos you want to display
 
   // Set up a wrapper div to hold repo cards in rows of 2
   const rowWrapper = document.createElement("div");
@@ -452,6 +458,7 @@ populateSkills(skills, "skills");
 /*fetchBlogsFromMedium(medium); */
 /*fetchReposFromGit(gitRepo);*/
 populateRepo(repos, "repos");
+populateBlogs(publications, "blogs");
 fetchGitConnectedData(gitConnected);
 
 populateExp_Edu(experience, "experience");
