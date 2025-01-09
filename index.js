@@ -4,7 +4,7 @@ import {
   education,
   experience,
   trekking,
-  footer,
+  footer
 } from "./user-data/data.js";
 
 import { URLs } from "./user-data/urls.js";
