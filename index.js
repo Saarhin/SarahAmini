@@ -5,7 +5,6 @@ import {
   experience,
   trekking,
   footer,
-  repos
 } from "./user-data/data.js";
 
 import { URLs } from "./user-data/urls.js";
