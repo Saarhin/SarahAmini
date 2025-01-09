@@ -450,8 +450,10 @@ populateBio(bio, "bio");
 populateSkills(skills, "skills");
 
 /*fetchBlogsFromMedium(medium); */
-fetchReposFromGit(items);
-fetchGitConnectedData(gitConnected);
+/*fetchReposFromGit(items);
+fetchGitConnectedData(gitConnected);*/
+
+populateRepo(items, "repos");
 
 populateExp_Edu(experience, "experience");
 populateTrekking(trekking);
