@@ -24,11 +24,10 @@ async function fetchBlogsFromMedium(url) {
   }
 }
 
-async function fetchReposFromGit(url) {
+function fetchReposFromGit(items) {
   try {
     /* const response = await fetch(url);
     const items = await response.json(); */
-    const items = repos
     populateRepo(items, "repos");
   } catch (error) {
     throw new Error(`Error in fetching the blogs from repos: ${error}`);
@@ -450,7 +449,7 @@ populateBio(bio, "bio");
 populateSkills(skills, "skills");
 
 /*fetchBlogsFromMedium(medium); */
-fetchReposFromGit(gitRepo);
+fetchReposFromGit(items);
 fetchGitConnectedData(gitConnected);
 
 populateExp_Edu(experience, "experience");
