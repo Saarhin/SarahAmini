@@ -139,7 +139,7 @@ export const footer = [
       //   },
       {
         text: "Email",
-        link: "samini1@ualberta.ca",
+        link: "mailto:samini1@ualberta.ca",
       },
       {
         text: "Github",
