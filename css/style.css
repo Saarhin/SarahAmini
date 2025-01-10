@@ -2119,7 +2119,7 @@ span {
     vertical-align: middle;
     white-space: nowrap;
     text-align: center;
-    background-color: brown !important;
+    background-color: rgb(42, 165, 165) !important;
     border-radius: 10px;
 }
 
