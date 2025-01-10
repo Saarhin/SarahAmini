@@ -976,10 +976,10 @@ body.offcanvas .colorlib-nav-toggle {
 	font-weight: 500;
 }
 .services.color-2 {
-	border-bottom: 2px solid #ec5453;
+	border-bottom: 2px solid #000080;
 }
 .services.color-2 .icon2 i {
-	color: #ec5453;
+	color: #000080;
 }
 .services.color-3 {
 	border-bottom: 2px solid #4cbfbf;
@@ -1067,13 +1067,13 @@ body.offcanvas .colorlib-nav-toggle {
 	text-transform: uppercase;
 }
 .services.color-2 .icon {
-	background: #ec5453;
+	background: #000080;
 }
 .services.color-2 .icon:before {
-	border-color: transparent transparent #ec5453 transparent;
+	border-color: transparent transparent #000080 transparent;
 }
 .services.color-2 .icon:after {
-	border-color: #ec5453 transparent transparent transparent;
+	border-color: #000080 transparent transparent transparent;
 }
 .services.color-3 .icon {
 	background: #4cbfbf;
