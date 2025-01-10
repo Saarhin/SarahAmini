@@ -223,14 +223,14 @@ export const publications = [
   link: "https://stm.bookpi.org/CTMCS-V3/article/view/2053",
   title: "On the Evaluation Criteria for Random Number Generators Using Monte Carlo Integration Algorithm",
   pubDate: "June 30th, 2021",
-  content: [`Chapter 13, Current Topics on Mathematics and Computer Science, BP International Publisher, Vol 3, p. 135‑159`,`K. Amini, A. Momtaz, E. Qoreishi, Sarah Amini, S. Haddadian`],
+  content: [`Chapter 13, Current Topics on Mathematics and Computer Science, BP International Publisher, Vol 3, p. 135‑159`,`K. Amini, A. Momtaz, E. Qoreishi, <strong>Sarah Amini</strong>, S. Haddadian`],
   categories: ["Book Chapter"]
   },
   {
   link: "",
   title: "Theoretical investigation and practical implementation of cold balloons outside of atmospheric boundary layer for the purpose of electricity generation",
   pubDate: "March 2015",
-  content: [`Second student conference on Engineering Science at the college of Engineering, University of Tehran, Tehran, Iran`,`Sarah Amini, K. Entezari`],
+  content: [`Second student conference on Engineering Science at the college of Engineering, University of Tehran, Tehran, Iran`,`<strong>Sarah Amini</strong>, K. Entezari`],
   categories: ["Conference Paper"]
   },
 ];
