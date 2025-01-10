@@ -20,7 +20,7 @@ export const experience = [
     subtitle: "Computer Vision Engineer",
     details: [`Extracting skin features, such as acne, texture, etc. from facial images`],
     tags: ["Python"],
-    icon: "truck ",
+    icon: "truck",
   },
   {
     title: "Platute",
@@ -31,7 +31,7 @@ export const experience = [
     ],
     tags: [
     ],
-    icon: "heartbeat",
+    icon: "truck",
   },
   {
     title: "RAHBIN SANAT NASIR INSTITUTE",
@@ -42,7 +42,7 @@ export const experience = [
       `Gained the experience of working with SSD, R-CNN, Fast R-CNN and Faster R-CNN models and TensorFlow and TensorBoard frameworks.`,
     ],
     tags: ["Python", "Computer Vision"],
-    icon: "qrcode",
+    icon: "truck",
   },
   {
     title: "ROSHT NANO FANAAVARAN COMPONY",
@@ -53,7 +53,7 @@ export const experience = [
     `Gained the experience of working with Javascript, Node.js, React, React Native, and Mongodb`
     ],
     tags: ["JavaScript"],
-    icon: "group",
+    icon: "truck",
   },
 ];
 
@@ -83,7 +83,7 @@ export const education = [
 Artificial Intelligence and Expert Systems(18.2/20)`
     ],
     tags: [],
-    icon: "book",
+    icon: "graduation-cap",
   },
   {
     title: "Diploma in mathematics and physics",
