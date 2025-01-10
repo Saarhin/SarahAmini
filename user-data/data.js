@@ -195,28 +195,28 @@ export const publications = [
   link: "https://ojs.wiserpub.com/index.php/CM/article/view/1151",
   title: "A Mathematical Approach towards Random Road Profile Generation based on Chaotic Signals of Chua’s Circuit",
   pubDate: "February 21st, 2022",
-  content: [`Journal of Contemporary Mathematics, Universal Wiser Publisher`,`S.Milani, A. Momtaz, Sarah Amini, K. Amini, S.Sadeghi, E. Qoreishi, S. Haddadian`],
+  content: [`Journal of Contemporary Mathematics, Universal Wiser Publisher`,`S.Milani, A. Momtaz, <strong>Sarah Amini</strong>, K. Amini, S.Sadeghi, E. Qoreishi, S. Haddadian`],
   categories: ["Journal Paper"]
   },
   {
   link: "https://ojs.wiserpub.com/index.php/CM/article/view/491",
   title: "Monte Carlo Approach Towards Evaluating Random Number Generators Based on Mathematical Schemes Driven from Chua’s Circuit",
   pubDate: "September 17th, 2020",
-  content: [`Journal of Contemporary Mathematics, Universal Wiser Publisher`,`K. Amini, A. Momtaz, E. Qoreishi, Sarah Amini, S. Haddadian`],
+  content: [`Journal of Contemporary Mathematics, Universal Wiser Publisher`,`K. Amini, A. Momtaz, E. Qoreishi,<strong>Sarah Amini</strong>, S. Haddadian`],
   categories: ["Journal Paper"]
   },
   {
   link: "",
   title: "Generation of a Pseudo Random Number Sequence by Implementation of Mathematically Manipulated Chaotic Signals of Quasi‑Synchronized Chua’s Circuits Equations, for Symmetric Encryption Purposes",
   pubDate: "October 18th, 2022",
-  content: [`submitted to the journal ofAnalog Integrated Circuits and Signal Processing,Springer`,`A. Momtaz, E. Qoreishi, Sarah Amini, H. Khayami, K. Amini, S. Haddadian`],
+  content: [`submitted to the journal ofAnalog Integrated Circuits and Signal Processing,Springer`,`A. Momtaz, E. Qoreishi, <strong>Sarah Amini</strong>, H. Khayami, K. Amini, S. Haddadian`],
   categories: ["Journal Paper"]
   },
   {
   link: "",
   title: "Utilization of Artificial Neural Networks for Evaluation of the Randomness Level of Mathematically Manipulated Data Sets Attained Numerically from Chua’s Circuit",
   pubDate: "March 16th, 2021",
-  content: [`submitted to the Physica D: Nonlinear Phenomena, Elsevier`,`Sarah Amini, K. Amini, A. Momtaz, E. Tavakoli, E. Qoreishi, S. Haddadian`],
+  content: [`submitted to the Physica D: Nonlinear Phenomena, Elsevier`,`<strong>Sarah Amini</strong>, K. Amini, A. Momtaz, E. Tavakoli, E. Qoreishi, S. Haddadian`],
   categories: ["Journal Paper"]
   },
   {
