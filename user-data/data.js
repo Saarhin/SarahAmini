@@ -148,10 +148,7 @@ export const footer = [
       },
     ],
   },
-  {
-    label: "copyright-text",
-    data: ["Made with &hearts; by Vinay Somawat"],
-  },
+  
 ];
 
 export const repos = [
