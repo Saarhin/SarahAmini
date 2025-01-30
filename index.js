@@ -227,13 +227,17 @@ function populateRepo(items, id) {
       `;
 
     // Make the card clickable by wrapping the content inside an anchor tag
-    const repoLink = document.createElement("a");
+    /*const repoLink = document.createElement("a");
     repoLink.href = `https://github.com/${items[i].author}`;
     repoLink.target = "_blank";
     repoLink.style =
       "text-decoration: none; color: black; display: block; height: 100%;";
 
-    repoCard.appendChild(repoLink);
+    repoCard.appendChild(repoLink);*/
+
+    repoCard.addEventListener("click", function () {
+      window.location.href = `/title?repo=${encodeURIComponent(items[i].name)}`;
+    });
 
     // Repository name
     const repoName = document.createElement("h4");
