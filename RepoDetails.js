@@ -11,14 +11,17 @@ function getElement(tagName, className) {
 }
 
 function populateBio(items, id) {
-    console.log("hi")
   const bioTag = document.getElementById(id);
-  console.log(bioTag)
+  const rowWrapper = document.createElement("div");
+  rowWrapper.style =
+    "display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between;";
+  bioTag.appendChild(rowWrapper);
   items.forEach((bioItem) => {
     const p = getElement("p", null);
     p.innerHTML = bioItem;
     bioTag.append(p);
   });
+
 }
 
 
