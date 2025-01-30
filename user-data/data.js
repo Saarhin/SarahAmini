@@ -154,6 +154,12 @@ export const footer = [
 export const repos = [
   {
   author: "saarhin",
+  name: "Robotics",
+  description: "A hands-on robotics course focused on programming Duckiebots using ROS2 and Python for autonomous navigation.",
+  language: "Python"
+  },
+  {
+  author: "saarhin",
   name: "Time Descritization in RL Environments",
   description: "Evaluating the effect of time descritization in environments such as CartPole and Acrobot on different algorithms.",
   language: "Python"
