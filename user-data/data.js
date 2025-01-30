@@ -240,3 +240,5 @@ export const publications = [
   categories: ["Conference Paper"]
   },
 ];
+
+export const robotics1 = ["Hi"]
