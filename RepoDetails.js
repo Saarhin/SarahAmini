@@ -4,6 +4,11 @@ import {
 
 import { URLs } from "./user-data/urls.js";
 
+function getElement(tagName, className) {
+    let item = document.createElement(tagName);
+    item.className = className;
+    return item;
+}
 
 function populateBio(items, id) {
     console.log("hi")
