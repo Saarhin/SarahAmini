@@ -241,4 +241,4 @@ export const publications = [
   },
 ];
 
-export const robotics1 = ["Hi"];
+export const robotics1 = ["Hi","Hello"];
