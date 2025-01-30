@@ -6,6 +6,7 @@ import { URLs } from "./user-data/urls.js";
 
 
 function populateBio(items, id) {
+    console.log("hi")
   const bioTag = document.getElementById(id);
   console.log(bioTag)
   items.forEach((bioItem) => {
