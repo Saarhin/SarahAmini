@@ -253,5 +253,6 @@ export const robotics1 = [
     "<b>dts duckiebot keyboard_control csc22941</b>",
     "This opened an interface that enabled us to navigate the bot from our laptop. After initiating movement, we observed that the Duckiebot was not properly calibrated. Even when pressing the forward key, it veered slightly to the left or right instead of maintaining a straight path. To correct this, we used the GUI tool to adjust the trim value, which compensates for differences in the motors or wheels. The command used was:",
     "<b>rosparam set /[hostname]/kinematics_node/trim [trim_value]</b>",
-    "By default, the trim value is set to 0.0, assuming that both wheels and motors are identical. However, since our Duckiebot was slightly off-balance, we had to adjust the trim value to [specific value] to ensure that it could move in a straight line."
+    "By default, the trim value is set to 0.0, assuming that both wheels and motors are identical. However, since our Duckiebot was slightly off-balance, we had to adjust the trim value to [specific value] to ensure that it could move in a straight line.",
+    "2. Video of our Duckiebot performing the lane following demo, as requested."
   ];
