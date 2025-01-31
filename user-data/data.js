@@ -257,4 +257,16 @@ export const robotics1 = [
     "2. Video of our Duckiebot performing the lane following demo, as requested."
   ];
 
-  export const robotics3 = ["For this section, we had to calibrate the camera of the Duckiebot. The process consists of two main steps: <b>intrinsic calibration</b> and <b>extrinsic calibration</b>. After completing the calibration steps, we can bring up the keyboard interface like in the previous section. By pressing the 'a' key, the Duckiebot will now be able to follow the lane on the track autonomously."]
+  export const robotics3 = ["For this section, we had to calibrate the camera of the Duckiebot. The process consists of two main steps: <b>intrinsic calibration</b> and <b>extrinsic calibration</b>. After completing the calibration steps, we can bring up the keyboard interface like in the previous section. By pressing the 'a' key, the Duckiebot will now be able to follow the lane on the track autonomously.",
+    "3. Hello from MY ROBOT",
+    "In this section, we used the template code to create and execute a simple script inside a custom package. We started by creating a new folder named packages. Inside this folder, we included the following files:",
+    "<b>__init__.py</b>: This file is required to define the folder as a package. It can remain empty for now.",
+    "<b>my_script.py</b>: This file contains a simple Python script that prints 'Hello, World!'.",
+    "Once the script was created, we proceeded to build the image using the following command:",
+    "<b>dts devel build -f</b>",
+    "After successfully building the image, we ran the script with:",
+    "<b>dts devel run</b>",
+    "This is our output:"
+  ]
+
+ 
