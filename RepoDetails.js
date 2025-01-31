@@ -1,6 +1,7 @@
 import {
     robotics1,
-    robotics2
+    robotics2,
+    robotics3
 } from "./user-data/data.js";
 
 import { URLs } from "./user-data/urls.js";
@@ -33,4 +34,5 @@ function populateBio(items, id) {
 
 populateBio(robotics1, "robotics1");
 populateBio(robotics2, "robotics2");
+populateBio(robotics3, "robotics3");
 

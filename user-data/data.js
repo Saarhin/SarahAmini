@@ -256,3 +256,5 @@ export const robotics1 = [
     "By default, the trim value is set to 0.0, assuming that both wheels and motors are identical. However, since our Duckiebot was slightly off-balance, we had to adjust the trim value to [specific value] to ensure that it could move in a straight line.",
     "2. Video of our Duckiebot performing the lane following demo, as requested."
   ];
+
+  export const robotics3 = ["For this section, we had to calibrate the camera of the Duckiebot. The process consists of two main steps: <b>intrinsic calibration</b> and <b>extrinsic calibration</b>. After completing the calibration steps, we can bring up the keyboard interface like in the previous section. By pressing the 'a' key, the Duckiebot will now be able to follow the lane on the track autonomously."]
