@@ -1,5 +1,6 @@
 import {
     robotics1,
+    robotics2
 } from "./user-data/data.js";
 
 import { URLs } from "./user-data/urls.js";
@@ -16,7 +17,7 @@ function populateBio(items, id) {
   rowWrapper.style =
     "display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between;";
   bioTag.appendChild(rowWrapper);
-  
+
   items.forEach((bioItem) => {
     const p = getElement("p", null);
     p.innerHTML = bioItem;
@@ -31,4 +32,5 @@ function populateBio(items, id) {
 
 
 populateBio(robotics1, "robotics1");
+populateBio(robotics2, "robotics2");
 

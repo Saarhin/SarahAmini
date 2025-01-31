@@ -244,3 +244,14 @@ export const publications = [
 export const robotics1 = [
   "The objective of this exercise was to get familiar with the Duckiebot and calibrate all the necessary components.",
   "1. Video of the Duckiebot driving in a straight line for a distance of 2 meters."];
+
+  export const robotics2 = ["Our first task was to calibrate the wheels of the Duckiebot to ensure that it could drive in a straight line for approximately two meters. Since this was our first hands-on task, we had to go through the installation process, which included setting up necessary dependencies, Docker, and the Duckietown Shell. To begin, we first needed to discover available Duckiebots in our network. This was done by running the following command in the terminal:",
+    "dts fleet discover",
+    "This command provided a list of available bots. Once the bot was identified, we could access its dashboard interface using:",
+    "http://csc22941.local/",
+    "This allowed us to monitor and interact with the Duckiebot. To manually control the Duckiebot using the keyboard, we executed:",
+    "dts duckiebot keyboard_control csc22941",
+    "This opened an interface that enabled us to navigate the bot from our laptop. After initiating movement, we observed that the Duckiebot was not properly calibrated. Even when pressing the forward key, it veered slightly to the left or right instead of maintaining a straight path. To correct this, we used the GUI tool to adjust the trim value, which compensates for differences in the motors or wheels. The command used was:",
+    "rosparam set /[hostname]/kinematics_node/trim [trim_value]",
+    "By default, the trim value is set to 0.0, assuming that both wheels and motors are identical. However, since our Duckiebot was slightly off-balance, we had to adjust the trim value to [specific value] to ensure that it could move in a straight line."
+  ];
