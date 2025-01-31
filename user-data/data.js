@@ -241,4 +241,6 @@ export const publications = [
   },
 ];
 
-export const robotics1 = ["Hi","Hello"];
+export const robotics1 = [
+  "The objective of this exercise was to get familiar with the Duckiebot and calibrate all the necessary components.",
+  "1. Video of the Duckiebot driving in a straight line for a distance of 2 meters."];

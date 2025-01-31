@@ -16,6 +16,7 @@ function populateBio(items, id) {
   rowWrapper.style =
     "display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between;";
   bioTag.appendChild(rowWrapper);
+  
   items.forEach((bioItem) => {
     const p = getElement("p", null);
     p.innerHTML = bioItem;
