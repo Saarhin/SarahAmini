@@ -157,43 +157,50 @@ export const repos = [
   author: "saarhin",
   name: "Robotics",
   description: "A hands-on robotics course focused on programming Duckiebots using ROS2 and Python for autonomous navigation.",
-  language: "Python"
+  language: "Python",
+  pageName: "RepoDetails"
   },
   {
   author: "saarhin",
   name: "Time Descritization in RL Environments",
   description: "Evaluating the effect of time descritization in environments such as CartPole and Acrobot on different algorithms.",
-  language: "Python"
+  language: "Python",
+  pageName: "RepoDetails"
   },
   {
   author: "saarhin",
   name: "Detection and Classification of Football Players in a Pitch",
   description: "In this project some image‑processing methods and CNN model is used for players’ detection and a model is trained for teams’ classification using Python, TensorFlow, OpenCV, Google Colab.",
-  language: "Python"
+  language: "Python",
+  pageName: "RepoDetails"
   },
   {
   author: "saarhin",
   name: "Playing with Face Models",
   description: "Computer Vision project. Aligned, animated and transformed face gestures using Dlib Library, Appearance Models, and Triangulation Algorithm.",
-  language: "Python"
+  language: "Python",
+  pageName: "RepoDetails"
   },
   {
   author: "saarhin",
   name: "Game Development ‑ Reverse Gun game",
   description: "Developed a 2D single‑player platformer game using Unity game engine and Pixel Art in 3 days for Global Game Jam competition",
-  language: "C#"
+  language: "C#",
+  pageName: "RepoDetails"
   },
   {
   author: "saarhin",
   name: "Game Development ‑ SAD game",
   description: "Member of a group of 4 student developing a 2D single‑Player platformer game using Unity game engine and Pixel Art for System Analysis and Design course.",
-  language: "C#"
+  language: "C#",
+  pageName: "RepoDetails"
   },
   {
   author: "saarhin",
   name: "Game Development ‑ Othello",
   description: "Implemented Othello in Unity game engine where an AI agent played against a single player. The AI agent uses minimax algorithm to optimize its moves",
-  language: "C#"
+  language: "C#",
+  pageName: "RepoDetails"
   }
 ];
 
