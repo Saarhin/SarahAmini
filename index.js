@@ -81,6 +81,7 @@ function populateBio(items, id) {
   items.forEach((bioItem) => {
     const p = getElement("p", null);
     p.innerHTML = bioItem;
+    p.style.textAlign = "justify"; 
     bioTag.append(p);
   });
 }
