@@ -1,7 +1,8 @@
 export const bio = [
   "Hello, I'm Sarah Amini!",
-  "I’m a Master's student in Computing Science at the University of Alberta, supervised by Professor Matthew E. Taylor. My primary research interest lies in Reinforcement Learning, with a focus on its real-world applications. I also have a strong background in Computer Vision, where I've worked on various projects involving object detection and recognition. I am passionate about leveraging AI to address practical challenges.",
-  "Beyond research, I have professional experience as a full-stack developer, specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js), where I developed dynamic web applications.",
+  "I’m a Master’s student in Computing Science at the University of Alberta, where I’m fortunate to be supervised by Prof. Matthew E. Taylor. My current research focuses on multi-agent reinforcement learning (MARL), with broader interests in reinforcement learning, machine learning, and computer vision.",
+  "Before starting my graduate studies, I completed my Bachelor’s degree in Computer Engineering at K. N. Toosi University of Technology. I’ve also gained hands-on experience in applied machine learning and computer vision through my work at Behin Elm Farajahan and RAHBIN SANAT NASIR Institutes.",
+  "In addition to my research background, I’ve developed strong software engineering skills as a full-stack developer, working with the MERN stack to build scalable web applications. I enjoy bridging theoretical insights with practical implementation, whether in AI systems or production-ready tools."
 ];
 
 export const skills = [
