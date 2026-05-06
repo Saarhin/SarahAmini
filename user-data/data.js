@@ -205,6 +205,13 @@ export const repos = [
 ];
 
 export const publications = [
+   {
+  link: "https://link.springer.com/article/10.1007/s10470-025-02542-6",
+  title: "Chaos-based Pseudo Random Number Generators via quasi-synchronized Chua’s circuits: a symmetric encryption perspective",
+  pubDate: "February, 2026",
+  content: [`Analog Integrated Circuits and Signal Processing`,`A. Momtaz, E. Qoreishi, <strong>Sarah Amini</strong>, H. Khayami, K. Amini, S. Haddadian`],
+  categories: ["Journal Paper"]
+  },
   {
   link: "https://ojs.wiserpub.com/index.php/CM/article/view/1151",
   title: "A Mathematical Approach towards Random Road Profile Generation based on Chaotic Signals of Chua’s Circuit",

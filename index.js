@@ -229,7 +229,7 @@ function populateRepo(items, id) {
 
     // Make the card clickable by wrapping the content inside an anchor tag
     const repoLink = document.createElement("a");
-    repoLink.href = `https://saarhin.github.io/SarahAmini/${items[i].pageName}`;
+    repoLink.href = `https://github.com/Saarhin`;
     repoLink.target = "_blank";
     repoLink.style =
       "text-decoration: none; color: black; display: block; height: 100%;";
