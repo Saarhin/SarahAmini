@@ -16,6 +16,23 @@ export const skills = [
 
 export const experience = [
   {
+    title: "CM Labs Simulations",
+    duration: "February 2026 - June 2026",
+    subtitle: "Machine Learning Specialist Intern",
+    details: [`SExploring how trained AI agents can be used to evaluate, critique, and coach human learners in simulation‑based
+training environments using RL.`],
+    tags: ["Research", "Reinforcement Learning"],
+    icon: "truck",
+  },
+  {
+    title: "AMII (Alberta Machine Intelligence Institute)",
+    duration: "August 2025 - September 2025",
+    subtitle: "Work Integrated Learning Opportunity (WILO) Participant",
+    details: [`Supported the Industry Team by conducting research to identify suitable AI/ML solutions for a industry project.`],
+    tags: ["Research", "Machine Learning"],
+    icon: "truck",
+  },
+  {
     title: "BEHIN ELM FARAJAHAN (B.E.F.)",
     duration: "June 2023 - June 2024",
     subtitle: "Computer Vision Engineer",

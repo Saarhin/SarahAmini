@@ -458,11 +458,12 @@ populateSkills(skills, "skills");
 
 /*fetchBlogsFromMedium(medium); */
 /*fetchReposFromGit(gitRepo);*/
+populateExp_Edu(experience, "experience");
 populateRepo(repos, "repos");
 populateBlogs(publications, "blogs");
 fetchGitConnectedData(gitConnected);
 
-populateExp_Edu(experience, "experience");
+
 /*populateTrekking(trekking);*/
 populateExp_Edu(education, "education");
 
